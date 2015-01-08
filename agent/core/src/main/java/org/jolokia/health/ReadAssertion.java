@@ -36,7 +36,7 @@ public class ReadAssertion extends Assertion {
 
     @Override
     public String toString() {
-        return "ReadCheck{" +
+        return "ReadAssertion{" +
                 "id=" + getId() +
                 ", description=" + getDescription() +
                 ", mbeanName='" + mbeanName + '\'' +

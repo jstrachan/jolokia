@@ -31,11 +31,11 @@ public class SearchAssertion extends Assertion {
 
     @Override
     public String toString() {
-        return "SearchCheck{" +
+        return "SearchAssertion{" +
                 "id=" + getId() +
                 ", description=" + getDescription() +
                 ", mbeanName='" + mbeanName + '\'' +
-                ", comparision='" + getComparison() + "'" +
+                ", comparison='" + getComparison() + "'" +
                 ", count=" + count +
                 '}';
     }
