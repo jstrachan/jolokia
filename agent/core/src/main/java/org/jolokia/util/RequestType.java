@@ -30,6 +30,7 @@ public enum RequestType {
     EXEC("exec"),
     VERSION("version"),
     SEARCH("search"),
+    HEALTH("health"),
 
     // Unsupported:
     REGNOTIF("regnotif"),
